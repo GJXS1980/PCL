@@ -24,7 +24,4 @@ cd ~/ros_pcl/build/PCL/pcl_visualizer_demo
 -v  |   Viewports example
 -i   |  Interaction Customization example
 
-
-
-
 test
