@@ -13,7 +13,7 @@ cd ~/ros_pcl/build/PCL/pcl_visualizer_demo
 ```
 七种模式
 
-  Options|
+  Options|...
 --|--
   -h |this help
 -s   |  Simple visualisation example
