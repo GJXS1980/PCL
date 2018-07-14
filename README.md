@@ -2,6 +2,7 @@
 #### 1.编译
 ```bsh
 mkdir -p ~/pcl_ws/src
+cd ~/pcl_ws/src
 git clone https://github.com/GJXS1980/PCL.git
 cd ~/pcl_ws
 catkin_make
