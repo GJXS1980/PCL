@@ -1,14 +1,16 @@
 ### Tutorial
 #### 1.编译
-```
-mkdir -p ~/ROS_PCL/src
+```bsh
+mkdir -p ~/pcl_ws/src
 git clone https://github.com/GJXS1980/PCL.git
-cd ..
+cd ~/pcl_ws
 catkin_make
+echo "source ~/pcl_ws/devel/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 ```
 #### 2.打开仿真模型
-```
-cd ~/ros_pcl/build/PCL/pcl_visualizer_demo
+```bash
+cd ~/pcl_ws/build/PCL/pcl_visualizer_demo
 ./pcl_visualizer_demo -h
 ```
 七种模式
